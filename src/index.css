@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes moveUpward {
+  0% {
+    transform: translateY(10%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.animate-moveUpward {
+  animation: moveUpward 10s linear infinite;
+}
+
+.video-wall:hover .animate-moveUpward {
+  animation-play-state: paused;
+}

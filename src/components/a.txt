@@ -1,0 +1,21 @@
+<div className="text-white space-y-6">
+            <div className="flex items-center gap-3">
+              <div className="relative">
+                <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center">
+                  <MessageSquare className="text-[#5865F2]" size={24} />
+                </div>
+                <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-white rounded-full flex items-center justify-center">
+                  <div className="w-2 h-2 bg-[#5865F2] rounded-full"></div>
+                </div>
+              </div>
+              <p className="text-sm font-medium uppercase tracking-wider">Connect with top SAT achievers</p>
+            </div>
+
+            <h1 className="text-4xl font-bold leading-tight">
+              Join our Thriving<br />Discord Community
+            </h1>
+
+            <button className="bg-white text-[#5865F2] px-6 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-colors">
+              Join Now
+            </button>
+          </div>
